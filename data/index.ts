@@ -9,8 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "Passionate about innovative solutions and continuous learning",
+    description: "I enjoy taking on new challenges and building high-quality applications.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -19,8 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
+    title: "Collaborative approach to software development",
+    description: "I thrive in team environments and value open communication.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Full-stack expertise with a focus on Next.js",
+    description: "Specialized in building robust, scalable web applications.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "DevOps and Cloud Enthusiast",
+    description: "Experienced with CI/CD, Docker, AWS, and Cloud Services.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Exploring Web3 and AI Integration",
+    description: "Focusing on the future of technology through personal projects.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to collaborate on your next big project?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -73,38 +73,59 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Finance SaaS Platform",
+    des: "Your all-in-one solution to effectively track and manage your finances. Easily monitor income and expenses, categorize transactions, and gain insights into your financial health with powerful, interactive tools.",
+    img: "/finance.png", // You can replace this with the actual image URL if available
+    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    link: "https://finance-me-kappa.vercel.app/",
+    github: "https://github.com/vvduth/finance-me",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "CV Builder",
+    des: "A resume builder and parser to help students create professional resumes and understand how existing ATS (Applicant Tracking Systems) work. The app showcases output and offers options to upload an existing resume or create one from scratch.",
+    img: "/cv-builder.png", // Replace with the actual image URL if available
+    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    link: "https://cv-builder-black.vercel.app/",
+    github: "https://github.com/vvduth/cv-builder",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Notion Clone",
+    des: "A personal homage to Notion, this app replicates its core features, allowing users to create, organize, and manage notes, tasks, and schedules efficiently.",
+    img: "/notion-clone.png", // Replace with the actual image URL if available
+    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    link: "https://note-writing-clone.vercel.app/",
+    github: "https://github.com/vvduth/notion-clone",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Airbnb Clone",
+    des: "A clone of the Airbnb platform built with Next.js, Tailwind CSS, Prisma, and MongoDB. Allows users to register, create listings, make reservations, and manage their trips and favorites, leveraging server components for efficient rendering.",
+    img: "/aircnc.png", // Replace with the actual image URL if available
+    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    link: "https://cnc-cnc.vercel.app/",
+    github: "https://github.com/vvduth/air-bnb-clone",
+  },
+  {
+    id: 5,
+    title: "TikTok Clone",
+    des: "Unleash your creativity and share videos with the world through this video-sharing app that mimics TikTok's core features.",
+    img: "/tiktok.png", // Replace with the actual image URL if available
+    iconLists: ["react.svg","/tail.svg"], // Add relevant tech stack icons
+    link: "https://tiktok-clone-pukeduke12.vercel.app/",
+    github: "https://github.com/vvduth/tiktok-clone",
+  },
+  {
+    id: 6,
+    title: "Pinterest Clone",
+    des: "A visually stunning image-sharing app with features similar to Pinterest, built using React and Sanity, offering an intuitive interface for browsing and saving images.",
+    img: "/pinterest.png", // Replace with the actual image URL if available
+    iconLists: ["/react.svg", "/Sanity.svg", "tail.svg"], // Add relevant tech stack icons
+    link: "https://playful-pudding-ba904e.netlify.app/",
+    github: "https://github.com/vvduth/pinterest-clone",
   },
 ];
-
 export const testimonials = [
   {
     quote:

@@ -10,7 +10,8 @@ export const gridItems = [
   {
     id: 1,
     title: "Passionate about innovative solutions and continuous learning",
-    description: "I enjoy taking on new challenges and building high-quality applications.",
+    description:
+      "I enjoy taking on new challenges and building high-quality applications.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -51,7 +52,8 @@ export const gridItems = [
   {
     id: 5,
     title: "Exploring Web3 and AI Integration",
-    description: "Focusing on the future of technology through personal projects.",
+    description:
+      "Focusing on the future of technology through personal projects.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -76,7 +78,7 @@ export const projects = [
     title: "Finance SaaS Platform",
     des: "Your all-in-one solution to effectively track and manage your finances. Easily monitor income and expenses, categorize transactions, and gain insights into your financial health with powerful, interactive tools.",
     img: "/finance.png", // You can replace this with the actual image URL if available
-    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    iconLists: ["/next.svg", "/tail.svg"], // Add relevant tech stack icons
     link: "https://finance-me-kappa.vercel.app/",
     github: "https://github.com/vvduth/finance-me",
   },
@@ -85,7 +87,7 @@ export const projects = [
     title: "CV Builder",
     des: "A resume builder and parser to help students create professional resumes and understand how existing ATS (Applicant Tracking Systems) work. The app showcases output and offers options to upload an existing resume or create one from scratch.",
     img: "/cv-builder.png", // Replace with the actual image URL if available
-    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    iconLists: ["/next.svg", "/tail.svg"], // Add relevant tech stack icons
     link: "https://cv-builder-black.vercel.app/",
     github: "https://github.com/vvduth/cv-builder",
   },
@@ -94,7 +96,7 @@ export const projects = [
     title: "Notion Clone",
     des: "A personal homage to Notion, this app replicates its core features, allowing users to create, organize, and manage notes, tasks, and schedules efficiently.",
     img: "/notion-clone.png", // Replace with the actual image URL if available
-    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    iconLists: ["/next.svg", "/tail.svg"], // Add relevant tech stack icons
     link: "https://note-writing-clone.vercel.app/",
     github: "https://github.com/vvduth/notion-clone",
   },
@@ -103,7 +105,7 @@ export const projects = [
     title: "Airbnb Clone",
     des: "A clone of the Airbnb platform built with Next.js, Tailwind CSS, Prisma, and MongoDB. Allows users to register, create listings, make reservations, and manage their trips and favorites, leveraging server components for efficient rendering.",
     img: "/aircnc.png", // Replace with the actual image URL if available
-    iconLists: ["/next.svg","/tail.svg"], // Add relevant tech stack icons
+    iconLists: ["/next.svg", "/tail.svg"], // Add relevant tech stack icons
     link: "https://cnc-cnc.vercel.app/",
     github: "https://github.com/vvduth/air-bnb-clone",
   },
@@ -112,7 +114,7 @@ export const projects = [
     title: "TikTok Clone",
     des: "Unleash your creativity and share videos with the world through this video-sharing app that mimics TikTok's core features.",
     img: "/tiktok.png", // Replace with the actual image URL if available
-    iconLists: ["react.svg","/tail.svg"], // Add relevant tech stack icons
+    iconLists: ["react.svg", "/tail.svg"], // Add relevant tech stack icons
     link: "https://tiktok-clone-pukeduke12.vercel.app/",
     github: "https://github.com/vvduth/tiktok-clone",
   },
@@ -147,11 +149,10 @@ export const testimonials = [
   },
   {
     quote:
-    "You've been doing good work with the listing. You've also bravely tried your hand at other kinds of tasks. Remember that we don't expect you to be perfect, we just expect you to listen and learn and improve, and show that in your work.",
+      "You've been doing good work with the listing. You've also bravely tried your hand at other kinds of tasks. Remember that we don't expect you to be perfect, we just expect you to listen and learn and improve, and show that in your work.",
     name: "Monthy Feedback - Mentti",
     title: "Software developers in CA Team - Telia Finland Oyj",
   },
- 
 ];
 
 export const companies = [
@@ -200,7 +201,7 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/telia.png",
   },
- 
+
   {
     id: 4,
     title: "Junior Software Developer - Telia Internal Employee",
@@ -215,13 +216,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/vvduth",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/duc-thai-b069b115a/",
   },
 ];

@@ -19,11 +19,7 @@ const Client = () => {
         justify-center gap-4 md:gap-16 max-lg:mt-10">
             {companies.map(({id, img,name, nameImg}) =>(
                 <div key={id} className="flex max-w-32 md:max-w-60 gap-2">
-                    <img
-                        src={img}
-                        alt={name}
-                        className="md:w-10 w-5"
-                    />
+                  
                     <img
                         src={nameImg}
                         alt={name}

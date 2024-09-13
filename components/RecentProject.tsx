@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 const RecentProject = () => {
   return (
@@ -19,19 +20,26 @@ const RecentProject = () => {
             className="mb-14 sm_h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={project.title} href={project.link}>
-              <div
-                className="relative flex items-center justify-center sm:w-[570px] 
-               w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10"
+              <Link
+                href={project.github}
+                passHref
+                aria-label={`Go to ${project.title} GitHub page`}
               >
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                <div
+                  className="relative flex items-center justify-center sm:w-[570px] 
+               w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10"
+                >
+                  <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                    <img src="/bg.png" alt="bg-img" />
+                  </div>
+                  <img
+                    src={project.img}
+                    alt={project.title}
+                    className="z-10 absolute bottom-0"
+                  />
                 </div>
-                <img
-                  src={project.img}
-                  alt={project.title}
-                  className="z-10 absolute bottom-0"
-                />
-              </div>
+              </Link>
+
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {project.title}
               </h1>
@@ -46,17 +54,25 @@ const RecentProject = () => {
                       className="border border-white/[0.2] rounded-full bg-black lg:w-10
                             lg:h-10 w-8 h-8 flex justify-center items-center
                          "
-                      style={{ transform: `translateX(-${5 * index * 2}px)` }}
+                      style={{
+                        transform: `translateX(-${5 * index * 2}px)`,
+                      }}
                     >
                       <img src={icon} alt={icon} className="p-2" />
                     </div>
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <Link
+                    href={project.link}
+                    passHref
+                    aria-label={`Check live site for ${project.title}`}
+                  >
+                    <div className="flex lg:text-xs text-sm text-purple cursor-pointer">
+                      Check Live Site
+                      <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </PinContainer>

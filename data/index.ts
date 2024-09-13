@@ -129,97 +129,85 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "You have done well, you have learned a lot. Keep learning and keep focusing on learning. There is no rush for you finish your tasks, just make sure that you are doing it as well as you can.",
+    name: "Monthy Feedback - Mentti",
+    title: "Software developers in CA Team - Telia Finland Oyj",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Duc has gotten an ok start with CA work. It's still very early to say much more, but the potential is there to do well, as long as he keeps listening and learning, and asking for assistance when there's something unclear.",
+    name: "Monthy Feedback - Mentti",
+    title: "Software developers in CA Team - Telia Finland Oyj",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Very good start. Remember that you have just began your developer journey, enjoy and try not to stress too much if something doesn't go as planned.",
+    name: "Monthy Feedback - Mentti",
+    title: "Software developers in CA Team - Telia Finland Oyj",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "You've been doing good work with the listing. You've also bravely tried your hand at other kinds of tasks. Remember that we don't expect you to be perfect, we just expect you to listen and learn and improve, and show that in your work.",
+    name: "Monthy Feedback - Mentti",
+    title: "Software developers in CA Team - Telia Finland Oyj",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+ 
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "integrify",
+    img: "/integrify.png",
+    nameImg: "/integrify.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "tamk",
+    img: "/tamk.png",
+    nameImg: "/tamk.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "TELIA",
+    img: "/telia.png",
+    nameImg: "/telia.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Teaching Assistant at Tampere University of Applied Sciences",
+    date: "January 2022 - April 2022",
+    desc: "Mentored graduate students, conducted live-coding workshops, and provided technical support for JavaScript programming courses. Collaborated with instructors to enhance student learning outcomes.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/tamk.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Full Stack Developer at Integrify BootCamp",
+    date: "January 2022 - October 2023",
+    desc: "Collaborated on diverse projects using JavaScript, TypeScript, React.js, Node.js, and Redux. Developed front-end and back-end features, conducted API development, unit testing, and implemented DevOps practices using Docker and GitHub Actions.",
+    className: "md:col-span-2",
+    thumbnail: "/integrify.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Software Developer - External Consultant at Telia",
+    date: "October 2022 - October 2023",
+    desc: "Designed and implemented a certificate authorization system with Java and Spring Boot. Developed user and technical documentation, conducted unit tests with Jest and JUnit5, and participated in Agile ceremonies.",
+    className: "md:col-span-2",
+    thumbnail: "/telia.png",
   },
+ 
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Junior Software Developer - Telia Internal Employee",
+    date: "May 2022 - September 2022",
+    desc: "Enhanced security features by developing a certificate authorization system with Java and Spring Boot. Supported internal and external users through comprehensive documentation and training materials. Utilized Agile methodologies to ensure timely delivery.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/telia.png",
   },
 ];
 

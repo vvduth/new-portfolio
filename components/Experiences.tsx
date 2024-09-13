@@ -27,6 +27,7 @@ const Experiences = () => {
                   <h1 className="text-start text-xl md:text-2xl font-bold">
                     {card.title}
                   </h1>
+                  <p className="mt-3 font-semibold text-start text-sm text-yellow-100">{card.date}</p>
                   <p className="text-start text-yellow-100 mt-3 font-semibold">
                     {card.desc}
                   </p>
